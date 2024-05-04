@@ -8,7 +8,7 @@ class Briq:
 
     def __str__(self):
         bio = (
-            f"My username is {self.name}, I'm a {self.title} based in {self.location}. "
+            f"My username is {self.name}, I'm a {self.title}. "
             f"My interests include {', '.join(self.interests)}. "
             f"I'm skilled in {', '.join(self.skills)}."
         )
@@ -17,7 +17,7 @@ class Briq:
 name = "Briq"
 title = "Software Engineer"
 interests = ["Network Development", "Backend Development", "Security"]
-skills = ["Python", "GO", "C"]
+skills = ["Python", "GO"]
 
 my_bio = Briq(name, title, location, interests, skills)
 print(my_bio)
